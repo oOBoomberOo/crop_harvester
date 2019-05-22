@@ -1,0 +1,1 @@
+execute if score @s bb.hv.uid = #bb.hv.target_uid bb.hv.uid run tag @s add boomber.harvester.found

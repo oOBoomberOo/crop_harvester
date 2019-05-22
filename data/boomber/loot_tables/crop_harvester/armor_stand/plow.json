@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080050, ucit:{id: 'plow', from: 'boomber:harvester', author: ['boomber']}}"
+						}
+					],
+					"name": "minecraft:paper"
+				}
+			]
+		}
+	]
+}

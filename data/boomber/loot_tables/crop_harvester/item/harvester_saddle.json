@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{"text": "Harvester", "color": "yellow", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit:{id: 'harvester_saddle', from: 'boomber:harvester', author: ['boomber']}}"
+						}
+					],
+					"name": "minecraft:saddle"
+				}
+			]
+		}
+	]
+}
